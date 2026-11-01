@@ -116,7 +116,7 @@ function loadQuestion() {
 function selectAnswer(e) {
   if (answersDisabled) return;
 
-  answerDisabled = true
+  answersDisabled = true
   
   const selectedButton = e.target;
   const isCorrect = selectedButton.dataset.correct === "true";
